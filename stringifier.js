@@ -67,9 +67,16 @@ parser = str => {
 }
 
 // Test:
+bar = "bar"
+blart = {}
+blart.next = blart
 obj = {
     "a": {},
-    "c": {},
+    "c": {
+        "asdf" : bar,
+    },
+    "foo" : bar,
+    "blart" : blart,
 }
 obj.b = obj.a
 obj.c.d = obj.a
