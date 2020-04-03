@@ -62,7 +62,7 @@ parser = str => {
     obj = JSON.parse(str)
     existingValues = {}
     buildCache(obj, existingValues, "#")
-    resolveReferences(obj, {})
+    resolveReferences(obj, existingValues)
     return obj
 }
 
