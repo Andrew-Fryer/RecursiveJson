@@ -1,0 +1,27 @@
+{
+  "name": "self-referencing-json",
+  "version": "1.0.0",
+  "description": "Tool to serialize and deserialize javascript objects as json even if they contain recursive references within themselves. This is done by storing values that are already in the object as a path to the value's other location in the form of a string.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node Test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrew-Fryer/RecursiveJson.git"
+  },
+  "keywords": [
+    "json",
+    "serialize",
+    "recursion",
+    "deserialize",
+    "self",
+    "reference"
+  ],
+  "author": "Andrew Fryer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrew-Fryer/RecursiveJson/issues"
+  },
+  "homepage": "https://github.com/Andrew-Fryer/RecursiveJson#readme"
+}
